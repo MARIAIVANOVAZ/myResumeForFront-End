@@ -56,7 +56,6 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  width: 405px;
 }
 
 /* my-awards-section */
@@ -71,13 +70,19 @@ body {
 }
 
 .my-awards-link {
+  display: inline;
+  color: #000;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.14;
+}
+.my-awards-link:hover,
+.my-awards-link:active {
+  color: #fb6d3a;
 }
 .my-awards-text {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -91,6 +96,14 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
+}
+.my-project-link {
+  font-style: italic;
+  color: #000000;
+}
+.my-project-link:hover,
+.my-project-link:active {
+  color: #fb6d3a;
 }
 
 /* my-work-experience-section */
@@ -183,11 +196,23 @@ body {
   font-size: 14px;
   line-height: 24px;
 
-  color: #565e6a;
+  color: #fff;
 }
 
 .contact-section-link:hover {
+  color: #fb6d3a;
+}
+.address {
   color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.16px;
+  text-align: center;
+}
+.box-wrapp {
+  margin-top: 15px;
+  margin-left: 34px;
 }
 
 /* Special skills section */
@@ -231,18 +256,7 @@ svg {
 a {
   text-decoration: none;
 }
-.my-awards-link {
-  display: block;
-  color: #fb6d3a;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.14;
-}
-.my-awards-link:hover,
-.my-awards-link:active {
-  color: #1e2939;
-}
+
 .projects-language {
   display: block;
   margin-top: 0;
