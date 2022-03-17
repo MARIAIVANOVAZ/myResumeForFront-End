@@ -5,7 +5,7 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1500px;
   background: #ffff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgb(0, 0, 0);
@@ -98,7 +98,6 @@ body {
   color: #000000;
 }
 .my-project-link {
-  font-style: italic;
   color: #000000;
 }
 .my-project-link:hover,
@@ -179,8 +178,14 @@ body {
 .contact-section {
   margin: 50px 0px 0px 40px;
 }
-.contact-section-link {
+.contact-section-address {
   margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #fff;
 }
 .contact-section-type {
   font-weight: bold;
@@ -191,6 +196,7 @@ body {
 }
 
 .contact-section-link {
+  margin-left: 10px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
